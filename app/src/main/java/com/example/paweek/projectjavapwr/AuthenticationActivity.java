@@ -112,6 +112,7 @@ public class AuthenticationActivity extends AppCompatActivity {
         dlgAlert.show();
     }
 
+    // Kopiuj wklej ze stackoverflow
     private Boolean validateEmail(String email)
     {
         String emailRegex = "^[a-zA-Z0-9_+&*-]+(?:\\."+
